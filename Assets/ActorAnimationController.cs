@@ -41,8 +41,10 @@ public class ActorAnimationController : MonoBehaviour {
 
 	void Update () {
 
+
+		print(animstate);
 		//if animation triggered is already playing, don't play it
-		if(!anim.GetCurrentAnimatorStateInfo(0).IsName(animDic[animstate]))
+		if(animstate != 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName(animDic[animstate]))
 			anim.SetTrigger(animDic[animstate]);
 
 		//set talk bubbl'es text

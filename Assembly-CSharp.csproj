@@ -49,6 +49,8 @@
      <Compile Include="Assets\AnimationEvents.cs" />
      <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\SceneManager.cs" />
+     <Compile Include="Assets\ScreenUIManager.cs" />
      <Compile Include="Assets\Scripts\SceneGeneric.cs" />
      <Compile Include="Assets\Scripts\SceneThing.cs" />
      <Compile Include="Assets\TextBubScaler.cs" />
