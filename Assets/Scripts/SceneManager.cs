@@ -3,36 +3,47 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ScreenUIManager : MonoBehaviour {
-	public SceneManager sceneManag;
+public class SceneManager : MonoBehaviour {
+	public Animator sceneAnim;
+	public ParticleSystem rain;
 
 	public Button actionBtn1;
 	public Button actionBtn2;
 	public Button actionBtn3;
 
 	void Start () {
-
 		actionBtn1.onClick.AddListener (() => {
-			print("action 1");
-			sceneManag.makeItRain();
+			//			sceneManag.makeItRain();
+			sceneAnim.SetTrigger("A");
 		});
 
 		actionBtn2.onClick.AddListener (() => {
-			print("action 2");
+			sceneAnim.SetTrigger("B");
 		});
 
 		actionBtn3.onClick.AddListener (() => {
-			print("action 3");
+			sceneAnim.SetTrigger("C");
 		});
 
+		hideButtons();
+	}
 
+	void Update () {
+		if(sceneAnim.GetCurrentAnimatorStateInfo(0).IsName("SceneWait")){
+			revealButtons();
+		}else{
+			hideButtons();
+		}
+	}
+
+	public void makeItRain(){
+		rain.Play();
+	}
+
+	public void hideButtons(){
 		actionBtn1.gameObject.SetActive(false);
 		actionBtn2.gameObject.SetActive(false);
 		actionBtn3.gameObject.SetActive(false);
-	}
-	
-	void Update () {
-		
 	}
 
 	public void revealButtons(){
