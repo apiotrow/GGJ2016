@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScreenUIManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SceneThing.cs" Line="15" Column="25" />
+      <File FileName="Assets/Scripts/SceneGeneric.cs" Line="5" Column="1" />
+      <File FileName="Assets/ActorAnimationController.cs" Line="46" Column="21" />
+      <File FileName="Assets/ScreenUIManager.cs" Line="15" Column="42" />
+      <File FileName="Assets/SceneManager.cs" Line="13" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

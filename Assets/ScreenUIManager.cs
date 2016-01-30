@@ -24,9 +24,20 @@ public class ScreenUIManager : MonoBehaviour {
 		actionBtn3.onClick.AddListener (() => {
 			print("action 3");
 		});
+
+
+		actionBtn1.gameObject.SetActive(false);
+		actionBtn2.gameObject.SetActive(false);
+		actionBtn3.gameObject.SetActive(false);
 	}
 	
 	void Update () {
+		
+	}
 
+	public void revealButtons(){
+		actionBtn1.gameObject.SetActive(true);
+		actionBtn2.gameObject.SetActive(true);
+		actionBtn3.gameObject.SetActive(true);
 	}
 }

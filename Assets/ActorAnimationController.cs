@@ -42,8 +42,8 @@ public class ActorAnimationController : MonoBehaviour {
 	void Update () {
 
 
-		print(animstate);
 		//if animation triggered is already playing, don't play it
+		//catch 0 because i'm lazy
 		if(animstate != 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName(animDic[animstate]))
 			anim.SetTrigger(animDic[animstate]);
 
