@@ -8,12 +8,11 @@ public class SceneThing : MonoBehaviour {
 	Animator anim;
 	Button btnA;
 
-	public string currScene;
+	public SceneGeneric currScene;
 
-	public class SceneSomething{
+	public class SceneSomething {
 		public string BGmusic;
 		public string background;
-
 	}
 
 	void Start () {
@@ -26,7 +25,9 @@ public class SceneThing : MonoBehaviour {
 
 		//button listener
 		btnA.onClick.AddListener (() => {
-			anim.SetTrigger("A");
+			anim.SetTrigger("A"); //starts animation
+			currScene = GameObject.Find("Scene2").GetComponent<SceneGeneric>();
+			currScene.setUpScene();
 		});
 		 
 
@@ -34,7 +35,6 @@ public class SceneThing : MonoBehaviour {
 	
 
 	void Update () {
-
-
+		
 	}
 }
