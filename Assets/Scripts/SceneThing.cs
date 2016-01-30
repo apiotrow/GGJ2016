@@ -8,6 +8,7 @@ public class SceneThing : MonoBehaviour {
 	Animator anim;
 	Button btnA;
 
+
 	public SceneGeneric currScene;
 
 	public class SceneSomething {

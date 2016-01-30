@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class SceneGeneric : MonoBehaviour {
-	public AudioClip aud;
+	public List<AudioClip> aud;
 	public Sprite bgbg;
 
 
