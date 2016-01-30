@@ -48,9 +48,7 @@
      <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
      <Compile Include="Assets\Scripts\ActorAnimationController.cs" />
-     <Compile Include="Assets\Scripts\SceneGeneric.cs" />
      <Compile Include="Assets\Scripts\SceneManager.cs" />
-     <Compile Include="Assets\Scripts\SceneThing.cs" />
      <Compile Include="Assets\Scripts\TextBubScaler.cs" />
      <None Include="Assets\Elementals\!Readme.txt" />
  <Reference Include="UnityEngine.UI">
