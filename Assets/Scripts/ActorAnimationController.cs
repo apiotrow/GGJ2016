@@ -34,6 +34,42 @@ public class ActorAnimationController : MonoBehaviour {
 		{16f, "We know what we must do, squire!"},
 		{17f, "Rustle up some grub?"},
 		{18f, "Wrong! We must call on the gods for aid!"},
+
+		//option 1: send a sign
+		{19f, "Hunh."},
+		{20f, "Wait, what?"},
+		{21f, "A SIGN FROM THE GODS!"},
+		{22f, "The gods favor me!  This changes everything! I must embrace my destiny as the chosen one!"},
+		{221f, "With the power of the gods, I can rescue the Gumdrop Prince from the Sugarplum Dragon, and become queen!  Come, Squire!"},
+		{23f, "Dusty trails."},
+
+		//option 2:  Festive Telegram
+		{24f, "Greetings Sir Knight, handsome stranger, and heretics."},
+		{26f, "Greetings messenger of the Gods. I am but a lowly knight who desires only to know her destiny."},
+		{27f, "Texas has an area of 268,580 square miles."},
+		{28f, "Squire! Dost thou know what this means?"},
+		{29f, "Don’t mess with Texas."},
+		{30f, "What? No, simple squire. It means I am favored by the Gods!"},
+		{301f,"I need to take control of my life and try to find a boy-husband."},
+		{302f, "I am off to find and rescue the Gumdrop Prince!"},
+		{303f, "May the Gods watch over me."},
+
+
+		//option 3: zombies
+		{31f, "Oh.  My.  Gods."},
+		{32f, "Anyone remember the zombie smiting incantation?  Me neither."},
+		{33f, "Inconceivable."},
+		{34f, "Die, sugary abominations!"},
+		{35f, "What in tarnation!"},
+		{36f, "The foul knaves have wounded you!  Are you alright squire?"},
+		{37f, "I reckon."},
+		{38f, "The gods have granted me dark powers over death!  A strange choice for so noble a knight as myself, but far be it for me to question their will! I must wield this power to fulfill my destiny!  Now, to fetch the Gumdrop prince from the clutches of the sugarplum dragon and live happily ever after as queen of all the land!"},
+//		{39f, "I reckon."},
+//		{40f, "I reckon."},
+//		{41f, "I reckon."},
+//		{42f, "I reckon."},
+//		{43f, "I reckon."},
+	
 	};
 
 	public Dictionary<float, string> animDic = new Dictionary<float, string>{
