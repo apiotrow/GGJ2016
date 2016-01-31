@@ -63,12 +63,10 @@ public class ActorAnimationController : MonoBehaviour {
 		{35f, "What in tarnation!"},
 		{36f, "The foul knaves have wounded you!  Are you alright squire?"},
 		{37f, "I reckon."},
-		{38f, "The gods have granted me dark powers over death!  A strange choice for so noble a knight as myself, but far be it for me to question their will! I must wield this power to fulfill my destiny!  Now, to fetch the Gumdrop prince from the clutches of the sugarplum dragon and live happily ever after as queen of all the land!"},
-//		{39f, "I reckon."},
-//		{40f, "I reckon."},
-//		{41f, "I reckon."},
-//		{42f, "I reckon."},
-//		{43f, "I reckon."},
+		{38f, "The gods have granted me dark powers over death! "},
+		{39f, "A strange choice for so noble a knight as myself, but far be it for me to question their will!"},
+		{40f, "I must wield this power to fulfill my destiny!"},
+		{41f, "Now, to fetch the Gumdrop prince from the clutches of the sugarplum dragon and live happily ever after as queen of all the land!"},
 	
 	};
 
