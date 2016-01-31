@@ -14,11 +14,16 @@ public class ActorAnimationController : MonoBehaviour {
 
 	public Dictionary<float, string> talkDic = new Dictionary<float, string>{
 		{0f, ""},
-		{1f, "d sgsfg seh"},
-		{2f, "dsdfgaw  rr jkrkr krkr r kwk ler lekrk tk kadaf fsd fsdf sh shsrthsrtb s ag  fgbs sh h rgseg sh"},
-		{3f, "gfg nfhdrt ddrtt  aeg srgh srgseg sh"},
-		{4f, "d sgsfg sh"},
-		{5f, "d sgdddkdm sdfosk nerkgjnsrthos kefngaelrg srtlst jnbsrtrgseg sh"},
+		{1f, "...and that’s how I smote the Licorice Demons out of Helena!"},
+		{2f, "I wouldn’t consider that smiting demons."},
+		{3f, "Yeah, it sounds more like a beating administered under the pretense of exorcism."},
+		{4f, "Hush hush. The Gods don’t exist anyway. We can do as we please."},
+		{5f, "I FAILED ANOTHER KNIGHT EXAM!"},
+		{6f, "Get along, little doggie."},
+		{7f, "I’M NEVER GOING TO MOVE OUT OF MY PARENT’S HOVEL OR FIND A NICE LORD TO MARRY!"},
+		{8f, "I reckon."},
+		{9f, "I FAILED ANOTHER KNIGHT EXAM!"},
+		{10f, "I FAILED ANOTHER KNIGHT EXAM!"},
 	};
 
 	public Dictionary<float, string> animDic = new Dictionary<float, string>{
@@ -34,7 +39,7 @@ public class ActorAnimationController : MonoBehaviour {
 
 
 	void Start () {
-		anim = GetComponent<Animator>();
+//		anim = GetComponent<Animator>();
 		animstate = 1f;
 	}
 	
@@ -44,8 +49,8 @@ public class ActorAnimationController : MonoBehaviour {
 
 		//if animation triggered is already playing, don't play it
 		//catch 0 because i'm lazy
-		if(animstate != 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName(animDic[animstate]))
-			anim.SetTrigger(animDic[animstate]);
+//		if(animstate != 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName(animDic[animstate]))
+//			anim.SetTrigger(animDic[animstate]);
 
 		//set talk bubbl'es text
 		talkText.text = talkDic[talkState];
