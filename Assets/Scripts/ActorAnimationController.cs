@@ -22,8 +22,18 @@ public class ActorAnimationController : MonoBehaviour {
 		{6f, "Get along, little doggie."},
 		{7f, "I’M NEVER GOING TO MOVE OUT OF MY PARENT’S HOVEL OR FIND A NICE LORD TO MARRY!"},
 		{8f, "I reckon."},
-		{9f, "I FAILED ANOTHER KNIGHT EXAM!"},
-		{10f, "I FAILED ANOTHER KNIGHT EXAM!"},
+
+		{9f, "Hey Bartholomew, watch this."},
+		{10f, "Sir Knight, you seem troubled.  What if I told you there’s a way to banish all your woes?"},
+		{11f, "What…*sniff*..way is that, good priest"},
+		{12f, "Sacred secrets are yours for the low low price of 10 candy coins."},
+		{13f, "Manifest Destiny."},
+		{14f, "My luck is too foul to worsen."},
+
+		{15f, "You’re trying too hard.  Just rely on the gods, and all your problems will be solved."},
+		{16f, "We know what we must do, squire!"},
+		{17f, "Rustle up some grub?"},
+		{18f, "Wrong! We must call on the gods for aid!"},
 	};
 
 	public Dictionary<float, string> animDic = new Dictionary<float, string>{
